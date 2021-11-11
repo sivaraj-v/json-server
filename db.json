@@ -1,59 +1,46 @@
 {
   "country": [
     {
-      "name": "India",
-      "code": "India",
       "value": "India",
       "label": "India"
     },
     {
-      "name": "US",
-      "code": "US",
       "value": "US",
       "label": "US"
     }
   ],
   "state": [
     {
-      "country": "US",
-      "name": "US-AAA",
-      "code": "US-AAA",
-      "value": "US-AAA",
-      "label": "US-AAA"
-    },
-    {
-      "country": "US",
-      "name": "US-BBB",
-      "code": "US-BBB",
-      "value": "US-BBB",
-      "label": "US-BBB"
-    },
-    {
       "country": "India",
-      "name": "IN-CCC",
-      "code": "IN-CCC",
-      "value": "US-CCC",
-      "label": "US-CCC"
+      "value": "Tamilnadu",
+      "label": "Tamil nadu"
+    },
+    {
+      "country": "US",
+      "value": "California",
+      "label": "California"
+    },
+    {
+      "country": "US",
+      "value": "NewYork",
+      "label": "New York"
     }
   ],
   "city": [
     {
-      "country": "US",
-      "name": "AAAAA",
-      "code": "US-AAA",
-      "state": "US-AAA"
+      "state": "Tamilnadu",
+      "name": "Coimbatore",
+      "code": "Coimbatore"
     },
     {
-      "country": "US",
-      "name": "BBBBBB",
-      "code": "US-BBB",
-      "state": "US-BBB"
+      "state": "NewYork",
+      "name": "New York",
+      "code": "NewYork"
     },
     {
-      "country": "India",
-      "name": "CCCCCCC",
-      "code": "IN-CCC",
-      "state": "IN-CCC"
+      "name": "Los Angeles",
+      "code": "Los Angeles",
+      "state": "California"
     }
   ],
   "gdpr": [
