@@ -30,16 +30,16 @@
     {
       "state": "Tamilnadu",
       "name": "Coimbatore",
-      "code": "Coimbatore"
+      "label": "Coimbatore"
     },
     {
       "state": "NewYork",
       "name": "New York",
-      "code": "NewYork"
+      "label": "NewYork"
     },
     {
       "name": "Los Angeles",
-      "code": "Los Angeles",
+      "label": "Los Angeles",
       "state": "California"
     }
   ],
