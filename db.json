@@ -55,5 +55,15 @@
       "code": "IN-CCC",
       "state": "IN-CCC"
     }
+  ],
+  "gdpr": [
+    {
+      "value": "Yes",
+      "label": "Yes"
+    },
+    {
+      "value": "Yes",
+      "label": "No"
+    }
   ]
 }
