@@ -8,8 +8,10 @@ server.use(middlewares);
 server.use(router);
 
 const PORT = process.env.PORT || 3000;
-server.listen(PORT, () => {
-  console.log(`JSON Server is running on port ${PORT}`);
+server.listen(PORT, (err) => {
+  if (err) {
+    console.error('Server listening error:', err);
+  } else {
+    console.log(`JSON Server is running on port ${PORT}`);
+  }
 });
-
-// Run node ./server.js
