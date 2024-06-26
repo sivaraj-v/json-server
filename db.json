@@ -1,56 +1,12 @@
 {
-  "country": [
-    {
-      "value": "India",
-      "label": "India"
-    },
-    {
-      "value": "US",
-      "label": "US"
-    }
+  "posts": [
+    { "id": 1, "title": "Post 1", "content": "Content of post 1" },
+    { "id": 2, "title": "Post 2", "content": "Content of post 2" },
+    { "id": 3, "title": "Post 3", "content": "Content of post 3" }
   ],
-  "state": [
-    {
-      "country": "India",
-      "value": "Tamilnadu",
-      "label": "Tamil nadu"
-    },
-    {
-      "country": "US",
-      "value": "California",
-      "label": "California"
-    },
-    {
-      "country": "US",
-      "value": "NewYork",
-      "label": "New York"
-    }
-  ],
-  "city": [
-    {
-      "state": "Tamilnadu",
-      "name": "Coimbatore",
-      "label": "Coimbatore"
-    },
-    {
-      "state": "NewYork",
-      "name": "New York",
-      "label": "NewYork"
-    },
-    {
-      "name": "Los Angeles",
-      "label": "Los Angeles",
-      "state": "California"
-    }
-  ],
-  "gdpr": [
-    {
-      "value": "Yes",
-      "label": "Yes"
-    },
-    {
-      "value": "Yes",
-      "label": "No"
-    }
+  "comments": [
+    { "id": 1, "postId": 1, "body": "Comment 1" },
+    { "id": 2, "postId": 1, "body": "Comment 2" },
+    { "id": 3, "postId": 2, "body": "Comment 3" }
   ]
 }
