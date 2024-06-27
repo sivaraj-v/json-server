@@ -1,13 +1,11 @@
 {
-  "name": "json-server-deploy",
+  "name": "my-backend",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "vercel dev",
-    "start:local": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "json-server": "^0.17.0"
+    "express": "^4.17.1"
   }
 }
